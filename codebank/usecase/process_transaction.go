@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/iramarfalcao/codebank/domain"
-	"github.com/iramarfalcao/codebank/dto"
-	"github.com/iramarfalcao/codebank/infrastructure/kafka"
+	"github.com/iramarfalcao/store-monorepo/codebank/domain"
+	"github.com/iramarfalcao/store-monorepo/codebank/dto"
+	"github.com/iramarfalcao/store-monorepo/codebank/infrastructure/kafka"
 )
 
 type UseCaseTransaction struct {

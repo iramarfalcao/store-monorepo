@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/iramarfalcao/codebank/domain"
+	"github.com/iramarfalcao/store-monorepo/codebank/domain"
 )
 
 type TransactionRepositoryDB struct {

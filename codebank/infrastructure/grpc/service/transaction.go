@@ -4,9 +4,10 @@ import (
 	"context"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/iramarfalcao/codebank/dto"
-	"github.com/iramarfalcao/codebank/infrastructure/grpc/pb"
-	"github.com/iramarfalcao/codebank/usecase"
+	"github.com/iramarfalcao/store-monorepo/codebank/dto"
+	"github.com/iramarfalcao/store-monorepo/codebank/infrastructure/grpc/pb"
+	"github.com/iramarfalcao/store-monorepo/codebank/usecase"
+
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )
