@@ -1,0 +1,3 @@
+.pgdata/
+go.sum
+.env
